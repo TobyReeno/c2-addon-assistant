@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<c2addon>
+	<!-- One of: plugin, behavior, effect -->
+	<type>behavior</type>
+	
+	<name>My Super Behavior</name>	
+	<version>1.0</version>
+	<author>Ashley Gullen</author>
+	<website>http://www.scirra.com</website>
+	<documentation>https://www.scirra.com/manual/1/construct-2</documentation>
+	<description>A short description of what this addon does.</description>
+</c2addon>
