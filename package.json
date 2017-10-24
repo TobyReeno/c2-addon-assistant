@@ -1,6 +1,6 @@
 {
   "name": "c2-addon-assistant",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "Construct addon development assistant",
   "main": "./lib/core.js",
   "scripts": {
