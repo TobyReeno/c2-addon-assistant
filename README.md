@@ -44,27 +44,27 @@ $ c2addona init plugin
 ```
 3. In result of workspace initialization, you'll have the following directory structure
 ```
-?   release.bat
-?   set-version.bat
-?   update.bat
-?
-????capx
-?       AwesomePlugin.capx
-?
-????releases
-????source
-?   ????c2addon
-?   ?   ?   info.xml
-?   ?   ?
-?   ?   ????files
-?   ?       ????AwesomePlugin
-?   ?               common.js
-?   ?               edittime.js
-?   ?               PluginIcon.ico
-?   ?               runtime.js
-?   ?
-?   ????c3addon
-????versions
+│   release.bat
+│   set-version.bat
+│   update.bat
+│
+├───capx
+│       AwesomePlugin.capx
+│
+├───releases
+├───source
+│   ├───c2addon
+│   │   │   info.xml
+│   │   │
+│   │   └───files
+│   │       └───AwesomePlugin
+│   │               common.js
+│   │               edittime.js
+│   │               PluginIcon.ico
+│   │               runtime.js
+│   │
+│   └───c3addon
+└───versions
 ```
 - `source/c2addon` - the place with code you will work with
 - `source/c3addon` - C3 addon source generated automatically by `C2C3AddonConverter` tool by `blackhornet` (included)
@@ -82,7 +82,7 @@ Discord: https://discord.gg/ayRypRH
 
 Facebook: https://www.facebook.com/C2C3Plugins
 
-Under MIT license � [Toby R](http://www.neexeen.com)
+Under MIT license © [Toby R](http://www.neexeen.com)
 
 
 [npm-image]: https://badge.fury.io/js/c2-addon-assistant.svg

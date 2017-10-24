@@ -6,12 +6,11 @@ const program = require('commander');
 const config = require('./../lib/config');
 
 program
-    .version('1.0.0')
+    .version('0.5.0')
     .description('Construct addon development assistant');
 
 program
     .command('init <addon_type>')
-    //.alias('i')
     .description('Initialize the addon workspace')
     .action(core.init);
 

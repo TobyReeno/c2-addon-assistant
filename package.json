@@ -1,13 +1,12 @@
 {
   "name": "c2-addon-assistant",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "",
   "main": "./lib/core.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "c2-addon-parser": "^0.6.1",
     "commander": "^2.11.0",
@@ -15,6 +14,17 @@
     "ncp": "^2.0.0",
     "prompt": "^1.0.0",
     "zip-folder": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobyReeno/c2-addon-assistant.git"
+  },
+  "description": "Construct addon development assistant",
+  "license": "MIT",
+  "author": {
+    "name": "Toby R",
+    "email": "toby@neexeen.com",
+    "url": "http://www.neexeen.com/"
   },
   "bin": {
     "c2addona": "./bin/c2addona.js"
