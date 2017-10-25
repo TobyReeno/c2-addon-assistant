@@ -6,7 +6,7 @@ const program = require('commander');
 const config = require('./../lib/config');
 
 program
-    .version('0.5.5')
+    .version('0.5.6')
     .description('Construct addon development assistant');
 
 program
