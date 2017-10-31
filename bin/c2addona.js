@@ -34,5 +34,10 @@ program
     .description('Sets the version in info.xml and edittime.js')
     .action(core.setVersion);
 
+program
+    .command('watch')
+    .description('Watch changes and update your project')
+    .action(core.watch);
+
 program.parse(process.argv);
 
