@@ -1,6 +1,6 @@
 {
   "name": "c2-addon-assistant",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "Construct addon development assistant",
   "main": "./lib/core.js",
   "scripts": {
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "c2-addon-parser": "^0.6.1",
+    "chokidar": "^1.7.0",
     "commander": "^2.11.0",
     "fs-extra": "^4.0.2",
     "ncp": "^2.0.0",
